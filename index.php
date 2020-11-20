@@ -40,11 +40,11 @@ while($Result = mysqli_fetch_array($res))
               <td><a href='dele.php'>delete</a><a href='formedit.html'>edit</a></td>
           </tr>
       </tbody>
-<a href='form.html'>insert</a>
 <?php
 }
 ?>
 </table>
+<a href='form.html'>insert</a>
 </div>
 <?php
 mysqli_close($conn);
