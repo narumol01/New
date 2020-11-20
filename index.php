@@ -19,8 +19,8 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 </head>
 <body>
 <div class="container">
-  <h2>Black/Dark Table</h2>
-  <p>The .table-dark class adds a black background to the table:</p>            
+  <h2>HomeWork</h2>
+  <p>homework</p>            
   <table class="table table-dark">
       <thead>
           <tr>
