@@ -8,7 +8,10 @@ if (mysqli_connect_errno($conn))
 }
 $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 ?>
-<table width="600" border="1">
+<div class="container">
+  <h2>Black/Dark Table</h2>
+  <p>The .table-dark class adds a black background to the table:</p>            
+  <table class="table table-dark">
   <tr>
     <th width="100"> <div align="center">Name</div></th>
     <th width="350"> <div align="center">Comment </div></th>
@@ -27,6 +30,7 @@ while($Result = mysqli_fetch_array($res))
 }
 ?>
 </table>
+</div>
 <?php
 mysqli_close($conn);
 ?>
