@@ -6,7 +6,8 @@ if (mysqli_connect_errno($conn))
 {
     die('Failed to connect to MySQL: '.mysqli_connect_error());
 }
-$sql = "DELETE FROM homework WHERE ID = '.$_GET['ID'].''";
+$id = $_GET['id']
+$sql = "DELETE FROM homework WHERE ID = $id";
 
 if (mysqli_query($conn, $sql)) {
     echo "delete successfully";
