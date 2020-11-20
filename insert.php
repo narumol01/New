@@ -8,8 +8,8 @@ if (mysqli_connect_errno($conn))
 }
 
 
-$name = $_POST['name'];
-$comment = $_POST['comment'];
+$name = $_POST['Name'];
+$comment = $_POST['Comment'];
 
 $sql = "INSERT INTO homework (Name , Comment) VALUES ('$name', '$comment')";
 
