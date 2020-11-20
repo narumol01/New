@@ -1,4 +1,5 @@
 <?php
+echo"<title>ITF</title>";
 $conn = mysqli_init();
 mysqli_real_connect($conn, 'home-work.mysql.database.azure.com', 'qwertyuiop@home-work', 'Asdfghjkl11', 'itf13', 3306);
 if (mysqli_connect_errno($conn))
