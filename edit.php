@@ -12,7 +12,7 @@ $name = $_POST['name'];
 $comment = $_POST['comment'];
 $id = $_POST['id']
 
-$sql = "UPDATE homework SET name='$name' , comment='$comment' WHERE id = '$id";
+$sql = "UPDATE homework SET name='$name' , comment='$comment' WHERE id = '$id'";
 
 if (mysqli_query($conn, $sql)) {
     echo "New record created successfully";
