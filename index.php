@@ -37,7 +37,7 @@ while($Result = mysqli_fetch_array($res))
           <tr>
               <td><?php echo $Result['Name'];?></div></td>
               <td><?php echo $Result['Comment'];?></td>
-              <td><a href='formdele.html'>delete</a><a href='formedit.html'>edit</a></td>
+              <td><a href='dele.php'>delete</a><a href='formedit.html'>edit</a></td>
           </tr>
           <a href='form.html'>insert</a>
       </tbody>
